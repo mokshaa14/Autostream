@@ -6,7 +6,7 @@ Implements: Intent Detection → RAG Knowledge Retrieval → Lead Capture Tool.
 
 Architecture:
   - LangGraph StateGraph manages conversation state across all turns
-  - Gemini 1.5 Flash (via Google) powers the LLM reasoning
+  - Groq powers the LLM reasoning
   - RAG pipeline injects knowledge base context into every LLM call
   - Intent detector routes the flow between greeting / inquiry / lead nodes
 """
@@ -45,7 +45,7 @@ class AgentState(TypedDict):
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# LLM Setup  —  Gemini 1.5 Flash
+# LLM Setup  —  GROQ
 # ══════════════════════════════════════════════════════════════════════════════
 
 def get_llm():
