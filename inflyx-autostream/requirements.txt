@@ -1,0 +1,12 @@
+# AutoStream AI Agent — Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core LangChain + LangGraph
+langgraph
+langchain-core
+langchain-community
+groq
+python-dotenv
+tqdm
+pydantic
+typing-extensions
