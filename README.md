@@ -3,7 +3,7 @@
 ##  How to Run the Project Locally
 
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/mokshaa14/Autostream.git
 cd inflx-autostream
 
 python -m venv venv
