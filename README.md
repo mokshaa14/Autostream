@@ -1,4 +1,4 @@
-#  AutoStream Conversational AI Agent
+#  SocioLead Conversational AI Agent
 
 ##  How to Run the Project Locally
 
